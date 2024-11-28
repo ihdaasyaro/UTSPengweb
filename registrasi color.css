@@ -1,0 +1,106 @@
+/* Reset beberapa gaya default */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif; /* Mengatur font */
+  background-color: #f4f4f4; /* Latar belakang abu-abu muda */
+  color: #333; /* Warna teks gelap */
+  line-height: 1.6; /* Tinggi baris untuk keterbacaan */
+}
+
+/* Header */
+header {
+  background: #f08080; /* Latar belakang hijau */
+  color: white; /* Warna teks putih */
+  padding: 10px 0; /* Padding atas dan bawah */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Menyebar logo dan navigasi */
+  align-items: center; /* Menyelaraskan item di tengah secara vertikal */
+  max-width: 1200px; /* Lebar maksimum untuk navbar */
+  margin: 0 auto; /* Mengatur margin otomatis untuk pusat */
+  padding: 0 20px; /* Padding samping */
+}
+
+.nav-links {
+  list-style: none; /* Menghilangkan bullet point */
+  display: flex; /* Menyusun item secara horizontal */
+}
+
+.nav-links li {
+  margin-left: 20px; /* Jarak antara item */
+}
+
+.nav-links a {
+  color: white; /* Warna teks putih untuk tautan */
+  text-decoration: none; /* Menghilangkan garis bawah */
+  transition: color 0.3s; /* Transisi untuk efek hover */
+}
+
+.nav-links a:hover {
+  color: #ddd; /* Warna lebih terang saat hover */
+}
+
+/* Main */
+main {
+  background: white; /* Latar belakang putih untuk main */
+  padding: 20px; /* Padding untuk ruang di dalam main */
+  margin: 20px auto; /* Margin otomatis untuk pusat */
+  border-radius: 8px; /* Sudut membulat */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
+  max-width: 600px; /* Lebar maksimum untuk main */
+}
+
+/* Judul utama */
+main h2 {
+  color: #f08080; /* Warna hijau untuk judul utama */
+  margin-bottom: 15px; /* Jarak bawah */
+}
+
+/* Formulir */
+form {
+  display: flex;
+  flex-direction: column; /* Menyusun elemen secara vertikal */
+}
+
+form label {
+  margin-bottom: 5px; /* Jarak bawah untuk label */
+}
+
+form input,
+form textarea {
+  padding: 10px; /* Padding dalam input dan textarea */
+  margin-bottom: 15px; /* Jarak bawah untuk elemen */
+  border: 1px solid #ddd; /* Garis batas abu-abu muda */
+  border-radius: 4px; /* Sudut membulat */
+}
+
+form button {
+  background: #f08080; /* Latar belakang hijau untuk tombol */
+  color: white; /* Warna teks putih */
+  border: none; /* Menghilangkan batas */
+  padding: 10px; /* Padding untuk tombol */
+  border-radius: 4px; /* Sudut membulat */
+  cursor: pointer; /* Menunjukkan kursor pointer saat hover */
+  transition: background 0.3s; /* Transisi untuk efek hover */
+}
+
+form button:hover {
+  background: #f08080; /* Warna lebih gelap saat hover */
+}
+
+/* Footer */
+footer {
+  text-align: center; /* Teks di tengah */
+  padding: 20px 0; /* Padding atas dan bawah */
+  background: #f08080; /* Latar belakang hijau */
+  color: white; /* Warna teks putih */
+  margin-top: 20px; /* Jarak atas untuk footer */
+}
